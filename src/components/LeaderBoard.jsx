@@ -232,7 +232,10 @@ export default function LeaderBoard() {
                     <StyledTableCell align="right" className="text-[#7184AD]">
                       {row.price}
                     </StyledTableCell>
-                    <StyledTableCell align="right" className="text-[blue]">
+                    <StyledTableCell
+                      align="right"
+                      className="text-[blue] cursor-pointer"
+                    >
                       {row.action}
                     </StyledTableCell>
                   </StyledTableRow>
