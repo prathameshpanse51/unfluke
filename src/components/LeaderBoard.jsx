@@ -137,7 +137,7 @@ export default function LeaderBoard() {
 
             <div>
               <Autocomplete
-                className="scale-[0.8]"
+                className="scale-[0.8] md:scale-[1]"
                 disablePortal
                 id="combo-box-demo"
                 options={Slippage}
