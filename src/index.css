@@ -3,6 +3,5 @@
 @tailwind utilities;
 
 :root {
-  font-family: cursive !important;
   background-color: #f6f9fc;
 }
